@@ -1,0 +1,46 @@
+.home__conentainer {
+    position: absolute;
+}
+
+.home__text-initial {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-indent: 2px;
+    font-feature-settings: 'pnum' on, 'onum' on;
+    color: rgba($color: $normal, $alpha: 0.7)
+}
+.home__text-container {
+    margin: 10%;
+}
+.home__text-name {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 94px;
+    text-indent: 2px;
+    font-feature-settings: 'pnum' on, 'onum' on;
+    color: $dark
+}
+
+.home__text-under-name {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 70px;
+    text-indent: 2px;
+    font-feature-settings: 'pnum' on, 'onum' on;
+    color: rgba($color: $dark, $alpha: 0.7)
+}
+
+.home__information {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-indent: 2px;
+    font-feature-settings: 'pnum' on, 'onum' on;
+    color: rgba($color: $dark, $alpha: 0.8)
+}

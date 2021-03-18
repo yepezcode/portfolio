@@ -16,29 +16,53 @@ main {
 
 
 
-.column__content {
-    display: flex;
-    flex-direction: column-reverse;
+
+.btn {
+  padding: 8px 20px;
+  border-radius: 2px;
+  outline: none;
+  border: none;
+  cursor: pointer;
 }
 
-.btn-online {
-    
-    background-color: $background;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 23px;
-    letter-spacing: 0.1em;
-    text-indent: 2px;
-    text-transform: capitalize;
-    font-feature-settings: 'pnum' on, 'onum' on;
-    color: $dark;
-    border: 1px solid $normal;
-    border-radius: 5px;
-    width: 200px;
-    height: 80px;
-    margin-top: 40px;
-
-    
+.btn--primary {
+  background-color: $background;
+  color: $dark;
+  border: 1px solid $dark;
 }
+
+.btn--outline {
+  background-color: transparent;
+  color: $dark;
+  padding: 8px 20px;
+  border: 1px solid $dark; 
+  transition: all 0.3s ease-out;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.1em;
+  text-indent: 2px;
+  text-transform: capitalize;
+  font-feature-settings: 'pnum' on, 'onum' on;
+}
+
+.btn--medium {
+  padding: 8px 20px;
+  font-size: 18px;
+}
+
+.btn--large {
+  padding: 12px 26px;
+  font-size: 20px;
+}
+
+.btn--large:hover,
+.btn--medium:hover {
+  transition: all 0.3s ease-out;
+  background: $dark; 
+  color: $background;
+
+}
+
+

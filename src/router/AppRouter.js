@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { Home } from "../components/home/home";
 // import { About } from "../components/about/about";
 // import { Contact } from "../components/contact/contact";
@@ -12,6 +12,9 @@ export const AppRouter = () => {
         <>
             <Router>
                 <Navbar />
+                <Switch>
+                    <Route exact path='/' component={ Home } /> 
+                </Switch>
             </Router>
         </>
     );

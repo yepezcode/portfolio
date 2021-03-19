@@ -5,11 +5,11 @@ import Plant from '../../static/images3d/tablePlant_S.png';
 
 export const Images = () => {
     return (
-        <div >
-            <img className="home__table-images" src={ Table } alt="table"/>
+        <div className="image__container">
+            <img className="image__table-images" src={ Table } alt="table"/>
 
-        { /*   <img src={ Laptop } alt="laptop"/>
-            <img src={ Plant } alt="plant"/>
-        */ }
+            <img className="image__laptop" src={ Laptop } alt="laptop"/>
+            <img className="image__plant" src={ Plant } alt="plant"/>
+      
         </div>
 )}

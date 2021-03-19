@@ -32,7 +32,6 @@ main {
 }
 
 .btn--outline {
-  background-color: transparent;
   color: $dark;
   padding: 8px 20px;
   border: 1px solid $dark; 
@@ -65,4 +64,6 @@ main {
 
 }
 
-
+.mt-15 {
+  margin-top: 15px;
+}

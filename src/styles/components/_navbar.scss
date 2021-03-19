@@ -52,7 +52,7 @@
   margin-right: 2rem;
 }
 
-.nav-item {
+.nav-items {
   height: 80px;
 }
 
@@ -65,6 +65,7 @@
   height: 100%;
   font-style: normal;
   font-weight: 500;
+
   font-size: 20px;
   line-height: 23px;
   letter-spacing: 0.1em;
@@ -91,46 +92,43 @@
 }
 
 @media screen and (max-width: 960px) {
+  
   .NavbarItems {
     position: relative;
   }
-
+  // .nav-menu {
+  //   display: flex;
+  //   flex-direction: column;
+  //   position: absolute;
+  //   top: 80px;
+  //   width: 100vw;
+  //   max-width: 960px;
+  //   height: 100vh;  
+  //   left: -100vw;
+  //   opacity: 1;
+  //   transition: all 0.5s ease
+  // }
   .nav-menu {
     display: flex;
     padding-top: 10px;
     flex-direction: column;
-    width: 100vw;
-    height: 100vh;
+    width: 92.3%;
+    height: 90vh;
     position: absolute;
     top: 80px;
-    left: -100%;
+    left: -100% ;
     opacity: 1;
     transition: all 0.5s ease;
+    margin-right: 0;
   }
 
   .nav-menu.active {
-    background: $dark;
+    background: $light;
     left: 0;
     opacity: 1;
-    transition: all 0.5s ease;
+    transition: all -.5 ease;
     z-index: 1;
   }
-
-  .nav-links {
-    text-align: center;
-    padding: 2rem;
-    width: 100%;
-    display: table;
-  }
-
-  .nav-links:hover {
-    background-color: $background;
-    color: $dark;
-    border-radius: 0;
-  }
-
-  
-
   .menu-icon {
     display: block;
     position: absolute;
@@ -139,6 +137,21 @@
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
+  }
+
+  .nav-links {
+    background-color: $light;
+    color: $dark;
+    text-align: center;
+    padding: 1rem 0;
+    width: 100%;
+    display: table;
+  }
+
+  .nav-links:hover {
+    background-color: darken($color: $light, $amount: 5);
+    color: lighten($color: $dark, $amount: 5);
+    border-radius: 0;
   }
 
   .fa-times {
@@ -151,8 +164,9 @@
     text-align: center;
     margin: 2rem auto;
     border-radius: 4px;
-    width:  100%;
+    width: 80%;
     text-decoration: none;
+    background-color: transparent;
     font-size: 1.5rem;
     color: $dark;
     padding: 14px 20px;

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import {Button} from "../button/Button";
+import { Button } from "../button/Button";
 export const Navbar = () => {
     const [click, setClick] = useState(false);
     const [button, setButton] = useState(true);
@@ -9,7 +9,7 @@ export const Navbar = () => {
     const closeMobileMenu = () => setClick(false);
 
     const showButton = () => {
-        if(window.innerWidth <= 960 ) {
+        if (window.innerWidth <= 960) {
             setButton(false);
         } else {
             setButton(true);
@@ -25,20 +25,20 @@ export const Navbar = () => {
             <nav className="navbar">
                 <div className="navbar-container">
                     <Link to="/" className="navbar-name" onClick={closeMobileMenu}>
-                        {"<Mauricio/>"} 
+                        {"<Mauricio/>"}
                     </Link>
                     <div className="menu-icon" onClick={handleClick}>
                         <i className={click ? "fas fa-times" : "fa fa-bars"} />
                     </div>
                     <ul className={click ? "nav-menu active" : "nav-menu"}>
-                        <li className="nav-item">
+                        <li className='nav-items'>
                             <Link
-                                to="/"
+                                to=""
                                 className="nav-links"
                                 onClick={closeMobileMenu}
                             >
                                 About
-                            </Link>
+                                </Link>
                         </li>
                         <li className='nav-items'>
                             <Link
@@ -49,7 +49,7 @@ export const Navbar = () => {
                                 Experience
                             </Link>
                         </li>
-                       <li className='nav-items'>
+                        <li className='nav-items'>
                             <Link
                                 to=""
                                 className="nav-links"
@@ -58,7 +58,7 @@ export const Navbar = () => {
                                 Work
                             </Link>
                         </li>
-                       <li className='nav-items'>
+                        <li className='nav-items'>
                             <Link
                                 to=""
                                 className="nav-links"
@@ -68,7 +68,7 @@ export const Navbar = () => {
                             </Link>
                         </li>
                     </ul>
-                    { button && <Button buttonStyle='btn--outline'>Resume</Button>}
+                    {button && <Button buttonStyle='btn--outline'>Resume</Button>}
                 </div>
             </nav>
         </>

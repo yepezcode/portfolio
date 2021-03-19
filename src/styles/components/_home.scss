@@ -1,26 +1,22 @@
-.home__conentainer {
-    position: absolute;
+.home__container {
+    display: flex;
+    justify-content: space-around;
+    margin: 10% 5%;
 }
 
 .home__text-initial {
-    font-family: Roboto;
     font-style: normal;
     font-weight: 500;
-    font-size: 24px;
-    line-height: 28px;
-    text-indent: 2px;
+    font-size: 20px;
     font-feature-settings: 'pnum' on, 'onum' on;
     color: rgba($color: $normal, $alpha: 0.7)
 }
-.home__text-container {
-    margin: 10%;
-}
+
 .home__text-name {
     font-style: normal;
     font-weight: 900;
     font-size: 80px;
     line-height: 94px;
-    text-indent: 2px;
     font-feature-settings: 'pnum' on, 'onum' on;
     color: $dark
 }
@@ -30,7 +26,6 @@
     font-weight: bold;
     font-size: 60px;
     line-height: 70px;
-    text-indent: 2px;
     font-feature-settings: 'pnum' on, 'onum' on;
     color: rgba($color: $dark, $alpha: 0.7)
 }
@@ -38,9 +33,58 @@
 .home__information {
     font-style: normal;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 28px;
-    text-indent: 2px;
     font-feature-settings: 'pnum' on, 'onum' on;
-    color: rgba($color: $dark, $alpha: 0.8)
+    color: rgba($color: $dark, $alpha: 0.8);
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+@media screen and (max-width: 960px) {
+
+    .home__container {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column-reverse;
+        margin: 10% 5%;
+    }
+    
+    .home__text-initial {
+        font-style: normal;
+        font-weight: 500;
+        font-size: medium;
+        font-feature-settings: 'pnum' on, 'onum' on;
+        color: rgba($color: $normal, $alpha: 0.7)
+    }
+    
+    .home__text-name {
+        font-style: normal;
+        font-weight: 900;
+        font-size: 60px;
+        line-height: 94px;
+        font-feature-settings: 'pnum' on, 'onum' on;
+        color: $dark
+    }
+    
+    .home__text-under-name {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 70px;
+        font-feature-settings: 'pnum' on, 'onum' on;
+        color: rgba($color: $dark, $alpha: 0.7)
+    }
+    
+    .home__information {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 28px;
+        font-feature-settings: 'pnum' on, 'onum' on;
+        color: rgba($color: $dark, $alpha: 0.8);
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+
 }

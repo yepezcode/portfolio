@@ -33,7 +33,7 @@ export const Navbar = () => {
                     <ul className={click ? "nav-menu active" : "nav-menu"}>
                         <li className='nav-items'>
                             <Link
-                                to=""
+                                to="/about"
                                 className="nav-links"
                                 onClick={closeMobileMenu}
                             >

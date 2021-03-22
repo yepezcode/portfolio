@@ -11,7 +11,7 @@ export const About = () => {
                         I’m a Linux user also i’ve been using neovim like main code editor. <br />
                         Here are a few technologies I’ve been working with recently:
                     </p>
-                    <div className="about__technolies">
+                    <div className="about__technologies">
                         <ul>
                             <li>JavaScript (ES6)</li>
                             <li>React & React Native</li>

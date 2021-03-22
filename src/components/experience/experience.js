@@ -2,8 +2,7 @@ import React from 'react';
 
 export const Experience = () => {
     return (
-        <>
-                        
-        <h1> Experience Screen</h1>
-        </>
+       <div>
+           <h1> Experience </h1>
+       </div>
 )}

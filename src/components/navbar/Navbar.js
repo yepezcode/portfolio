@@ -33,7 +33,7 @@ export const Navbar = () => {
                     <ul className={click ? "nav-menu active" : "nav-menu"}>
                         <li className='nav-items'>
                             <Link
-                                to="/about"
+                                to="about"
                                 className="nav-links"
                                 onClick={closeMobileMenu}
                             >
@@ -42,7 +42,7 @@ export const Navbar = () => {
                         </li>
                         <li className='nav-items'>
                             <Link
-                                to=""
+                                to="experience"
                                 className="nav-links"
                                 onClick={closeMobileMenu}
                             >

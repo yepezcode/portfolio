@@ -8,6 +8,7 @@ import { Home } from "../components/home/home";
 import { Navbar } from "../components/navbar/Navbar";
 // import { Work } from "../components/work/work";
 import { NavbarRouter } from '../components/navbar/index';
+import { Experience } from "../components/experience/experience";
 export const AppRouter = () => {
     return (
        
@@ -15,6 +16,7 @@ export const AppRouter = () => {
             <NavbarRouter />
             <Home />
             <About />
+            <Experience />
         </Router>
        
     );

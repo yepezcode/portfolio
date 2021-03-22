@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { About } from "../about/about";
+import { Experience } from "../experience/experience";
 import { Home } from "../home/home";
 // import { About } from "../components/about/about";
 // import { Contact } from "../components/contact/contact";
@@ -17,6 +18,7 @@ export const NavbarRouter = () => {
                 <Switch>
                     <Route path='home'  component={ Home } />
                     <Route exact path='about' component={ About } /> 
+                    <Route exact path='experience' component={ Experience } />
                 </Switch>
             </Router>
         </>

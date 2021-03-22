@@ -14,8 +14,26 @@ main {
     width: 100%;
 }
 
-
-
+.title__with-line {
+  display: block;
+  overflow: hidden;
+  margin-left: 20%;
+}
+.title__with-line > span{
+  position: relative;
+  display: inline-block;
+}
+.title__with-line > span:after{
+  content: '';
+  position: absolute;
+  top: 50%;
+  border-bottom: 2px solid;
+  width: 300px; /* half of limiter*/
+  margin: 0 20px;
+}
+.title__with-line > span:after{
+  left: 100%;
+}
 
 .btn {
   padding: 8px 20px;
@@ -66,4 +84,9 @@ main {
 
 .mt-15 {
   margin-top: 15px;
+}
+
+
+.p__medium {
+  font-weight: 500;
 }

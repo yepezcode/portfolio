@@ -1,0 +1,39 @@
+.about__container {
+    position: absolute;
+    margin: 0 20%;
+}
+
+.about__title {
+    display: flex;
+    color: $dark;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    letter-spacing: 0.03em;
+}
+
+.about__content {
+    display: flex;
+    flex-direction: row;
+}
+
+.about__information {
+    margin-top: 100px;
+    margin-right: 20px;
+    text-align: justify;
+    color: $normal;
+    font-style: normal;
+    line-height: 21px;
+}
+
+.about__technologies {
+    display: flex;
+    margin-top: 30px;
+}
+.about__technologies ul li {
+    margin-top: 10px    
+}
+.about__image {
+    height: 500px;
+    margin-top: 60px;
+}

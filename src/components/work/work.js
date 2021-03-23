@@ -3,6 +3,7 @@ import Capture1 from '../../static/Captura.png';
 import Capture2 from '../../static/capture2.png';
 import Capture3 from '../../static/Captura3.png';
 import Capture4 from '../../static/Modest.png';
+import Capture5 from '../../static/MernCalendar.png'
 import { CardWork } from './CardWork';
 export const Work = () => {
     return (
@@ -53,7 +54,10 @@ export const Work = () => {
                 </div>
                 <div className="work__card">
                     <div className="work__images">
-                        <img src={Capture4} />
+                        <img style={{   marginTop: "100px",
+                        boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)",
+                        height: "100"
+                     }} src={Capture5} />
                     </div>
                     <div className="work__information">
                         <p className="work__feature">Feature Project</p>

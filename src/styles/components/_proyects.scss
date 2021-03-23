@@ -1,0 +1,111 @@
+.proyects__container {
+    margin: 0 10%
+}
+
+.proyects__title {
+    text-align: center; 
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: 0.03em;
+    color: rgba($dark, 0.8);
+}
+
+.proyects_cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+   
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+// CARD
+.card__container {
+   display: inline-flex;
+   margin-top: 50px;
+   flex-direction: row;
+   justify-content: space-around;
+   align-content: center;
+   position: relative;
+   align-items: auto;
+   background-color: $light;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   width: 320px;
+   height: 300px;
+}
+
+.card__information {
+    position: absolute;
+    background-color: transparent;
+}
+
+.card__name-proyect {
+    margin: 20px;
+    background-color: transparent;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 33px;
+    letter-spacing: 0.03em;
+    color: $normal
+}
+
+.proyect__folder {
+    background-color: transparent;
+    font-size: 64px;
+    color: $dark;
+    margin-left: 20px;
+}
+.proyect__git {
+    
+    background-color: transparent;
+    font-size: 25px;
+    
+}
+.proyect__link {
+    background-color: transparent;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.card__header {
+    background-color: transparent;
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    
+}
+
+.card__header-links {
+    background-color: transparent;
+    grid-column: 4/4;
+}
+
+.card__text-proyect {
+    background-color: transparent;
+    text-align: justify;
+    margin: 20px 30px;
+   
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.03em;
+
+    color: rgba($normal, 0.8);
+}
+
+.card__footer {
+    align-items: flex-end;
+    display: flex;
+    background-color: transparent;
+    list-style: none;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+.card_footer-techonologie {
+    align-self: auto;
+    background-color: transparent;
+}

@@ -39,38 +39,32 @@
             background-color: transparent;
             
         }
-        & li {
-            background-color: transparent;
-            text-decoration: none;
-            list-style: none;
-            height: 30px;       
-            border-left: 2px solid $normal;
-            padding-left: 15px;
-            font-size: 16px;
-            font-weight: 500;
-            color: $normal;
-        }
 }
 
-.experience__jobs.active {
+
+.active {
     background-color: transparent;
-    margin-right: 70px;
-    margin-top: 10px;
-        & ul {
-            background-color: transparent;
-            
-        }
-        & li {
-            background-color: transparent;
-            text-decoration: none;
-            list-style: none;
-            height: 30px;       
-            border-left: 2px solid $dark;
-            padding-left: 15px;
-            font-size: 16px;
-            font-weight: 500;
-            color: $dark;
-        }
+    text-decoration: none;
+    list-style: none;
+    height: 30px;       
+    border-left: 3px solid $dark;
+    padding-left: 15px;
+    font-size: 16px;
+    font-weight: 500;
+    color: $dark;
+}
+
+.no-active {
+    background-color: transparent;
+    text-decoration: none;
+    list-style: none;
+    height: 30px;       
+    border-left: 3px solid rgba($dark, 0.5);
+    padding-left: 15px;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba($dark, 0.7);
+    cursor: pointer;
 }
 
 .experience__information {
@@ -83,7 +77,7 @@
 
         & li {
             background-color: transparent;
-            margin-top: 10px;
+            margin-top: 40px;
             font-family: Roboto;
             font-style: normal;
             font-weight: normal;
@@ -116,4 +110,32 @@
     line-height: 25px;
     font-weight: normal;
     font-size: 14px;
+}
+
+
+.list-arrow {
+    background-color: transparent;
+    height: 10px;
+    margin-right: 10px;
+}
+
+.experience__text {
+    background-color: transparent;
+    margin-top: 20px;
+    font-size: 17px;
+    line-height: 23px;
+    text-align: justify;
+
+        & a {
+            background-color: transparent;
+            color: $normal;
+            font-weight: 900;
+            cursor: pointer;
+        }
+        & p {
+            background-color: transparent;
+            display: inline-flex;
+            color: #000;
+            font-weight: bold;
+        }
 }

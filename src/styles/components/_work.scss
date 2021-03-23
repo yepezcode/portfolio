@@ -1,0 +1,122 @@
+.work__container {
+ 
+}
+.work__title {
+    
+    display: flex; 
+    color: $dark;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    letter-spacing: 0.03em;
+    margin: 0 20%;
+    }
+
+.work__content {
+   
+   
+}
+
+
+.work__card {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: $light;    
+    margin-bottom: 100px;   
+    width: 80%;
+    height: 60vh;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-left: 10%;
+    margin-top: 100px;
+}
+
+.work__images {
+    background-color: transparent;
+    margin-left: 100px;
+    & img {
+        height: 300px;
+        margin-top: 100px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+}
+
+.work__information {
+    background-color: transparent;
+    margin-left: 60px;
+   
+}
+
+.work__feature {
+    margin-top: 60px;
+    margin-right: 40px; 
+    align-items: flex-end;
+    align-content: flex-end;
+    color: $normal;
+    text-align: end;
+    background-color: transparent;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+}
+
+.work__work-title {
+    background-color: transparent;
+    margin-right: 40px; 
+    align-items: flex-end;
+    align-content: flex-end;
+    color: $normal;
+    text-align: end;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 47px;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+    text-indent: 2px;
+    font-feature-settings: 'pnum' on, 'onum' on;
+}
+
+.work__work-information {
+    background-color: transparent;
+    margin-right: 100px;
+    font-size: 18px;
+    line-height: 21px;
+    align-items: center;
+    letter-spacing: 0.02em;
+    text-align: justify;
+    margin-top: 30px;
+        & a {
+            background-color: transparent;
+            color: $normal;
+            font-weight: 900;
+            cursor: pointer;
+        }
+        & p {
+            background-color: transparent;
+        }
+}
+
+.work__technologies {
+    background-color: transparent;
+    list-style: none;
+    display: flex;
+    font-family: Roboto Mono;
+    line-height: 24px;
+    font-weight: 400;
+    position: relative;
+    letter-spacing: 0.02em;
+    margin-right: 10px;
+    
+
+        & li {
+            background-color: transparent;
+            margin-right: 40px;
+        }
+}
+

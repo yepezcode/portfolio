@@ -1,14 +1,30 @@
 import React, { useState } from 'react';
 import WaveTop from '../../static/waves/wave.svg'
 import WaveBot from '../../static/waves/waveBot.svg';
+import { Modest } from './modest';
+import { Smarti } from './smarti';
 
 
 export const Experience = () => {
 
-    const Jobs = ['smarti', 'modest']
-    const [infoJob, setInfoJob] = useState(Jobs[0]);
+
+    const [infoJob, setInfoJob] = useState('smarti');
     
-    console.log(infoJob);
+
+    const handleJob = (e) => {
+        let job = e.target.id;
+        console.log(e.target.id);
+        setInfoJob(job);
+    }
+    const JobInformation = () => {
+        if(infoJob === 'smarti') {
+            return <Smarti />
+        }
+        if(infoJob === 'modest') {
+            return <Modest />
+        }
+    }
+   
     return (
         <>
             <img style={{ display: 'flex' }} src={WaveTop} />
@@ -17,25 +33,11 @@ export const Experience = () => {
                 <div className="experience__content">
                     <div className="experience__jobs">
                       <ul>
-                          <li id='smarti'>Smarti</li>
-                          <li id='modest'>Modest</li>
+                          <li className={ infoJob === 'smarti' ? "active" : "no-active" } onClick={ handleJob } id='smarti'>Smarti</li>
+                          <li className={ infoJob === 'modest' ? "active" : "no-active" } onClick={ handleJob } id='modest'>Modest</li>
                       </ul>
                     </div>
-                    <div className="experience__information">
-                        <p className="experience__information-title">Remote mobile development <a>@Smarti</a></p>
-                        <p className="experience__information-date">Jun - Dec 2020 </p>
-                        <ul>
-                            <li>
-                            Design interfaces with good user experience in Figma  
-                            </li>
-                            <li>
-                            Create communications in IoT devices with the MQTT protocol in Python and Javascript
-                            </li>
-                            <li>
-                            Development the application in react native expo
-                            </li>
-                        </ul>
-                    </div>
+                        { JobInformation() }
                 </div>               
             </div>
             <img src={WaveBot} />

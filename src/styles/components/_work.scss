@@ -114,11 +114,11 @@
     position: relative;
     letter-spacing: 0.02em;
     margin-right: 10px;
-    
+    justify-content: space-around;    
 
         & li {
             background-color: transparent;
-            margin-right: 40px;
+            
         }
 }
 
@@ -214,7 +214,6 @@
     background-color: transparent;
     grid-area: work__imagen;
     display: flex;
-
         & img {
             justify-content: center;
             background-color: transparent;
@@ -223,6 +222,6 @@
             justify-self: center;
             width: 100%;
             height: auto;
-            flex-wrap: wrap;
         }
 }
+

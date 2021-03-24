@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
 * {
     background: $background;
     font-family: 'Roboto', sans-serif;
@@ -43,6 +45,7 @@ main {
   outline: none;
   border: none;
   cursor: pointer;
+  
 }
 
 .btn--primary {
@@ -66,6 +69,19 @@ main {
   font-feature-settings: 'pnum' on, 'onum' on;
 }
 
+.btn--outline-center {
+  color: $dark;
+  border: 1px solid $dark; 
+  transition: all 0.3s ease-out;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.1em;
+  text-indent: 2px;
+  text-transform: capitalize;
+ 
+}
+
+
 .btn--medium {
   padding: 8px 20px;
   font-size: 18px;
@@ -74,6 +90,7 @@ main {
 .btn--large {
   padding: 12px 26px;
   font-size: 20px;
+  justify-content: center;
 }
 
 .btn--large:hover,

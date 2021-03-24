@@ -8,6 +8,7 @@ import { Work } from "../components/work/work";
 import { OtherProyects } from "../components/proyects/OtherProyects";
 import { Contact } from "../components/contact/contact";
 import { Footer } from "../components/footer/footer";
+import { Element } from 'react-scroll'
 
 export const AppRouter = () => {
     return (
@@ -15,10 +16,14 @@ export const AppRouter = () => {
         <Router>
             <NavbarRouter />
             <Home />
-            <About />
+            <Element  id="about"/>
+            <About/>
+            <Element  id="experience"/>
             <Experience />
+            <Element  id="work"/>
             <Work />
             <OtherProyects />
+            <Element  id="contact"/>
             <Contact />
             <Footer />
         </Router>

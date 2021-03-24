@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, animateScroll as scroll } from "react-scroll";
+//import { Link } from "react-router-dom";
 import { Button } from "../button/Button";
 export const Navbar = () => {
     const [click, setClick] = useState(false);
@@ -16,16 +17,22 @@ export const Navbar = () => {
         }
     }
 
+    const ScrollToTop = () => {
+        scroll.scrollToTop();
+    }
+
     useEffect(() => {
         showButton();
     }, [])
     window.addEventListener('resize', showButton);
     return (
         <>
+        
             <nav className="navbar">
                 <div className="navbar-container">
-                    <Link to="/" className="navbar-name" onClick={closeMobileMenu}>
-                        {"<Mauricio/>"}
+                    <Link  to="/" className="navbar-name" onClick={closeMobileMenu}
+                    >
+                        <a onClick={ ScrollToTop }>   {"<Mauricio/>"} </a>
                     </Link>
                     <div className="menu-icon" onClick={handleClick}>
                         <i className={click ? "fas fa-times" : "fa fa-bars"} />
@@ -36,33 +43,49 @@ export const Navbar = () => {
                                 to="about"
                                 className="nav-links"
                                 onClick={closeMobileMenu}
+                                spy={true}
+                                smooth={true}
+                                offset={-100}
+                                duration={500}
                             >
                                 About
-                                </Link>
+                            </Link>
                         </li>
                         <li className='nav-items'>
                             <Link
                                 to="experience"
                                 className="nav-links"
                                 onClick={closeMobileMenu}
+                                spy={true}
+                                smooth={true}
+                                offset={200}
+                                duration={500}
                             >
                                 Experience
                             </Link>
                         </li>
                         <li className='nav-items'>
                             <Link
-                                to=""
+                                to="work"
                                 className="nav-links"
                                 onClick={closeMobileMenu}
+                                spy={true}
+                                smooth={true}
+                                offset={-120}
+                                duration={500}
                             >
                                 Work
                             </Link>
                         </li>
                         <li className='nav-items'>
                             <Link
-                                to=""
+                                to="contact"
                                 className="nav-links"
                                 onClick={closeMobileMenu}
+                                spy={true}
+                                smooth={true}
+                                offset={100}
+                                duration={500}
                             >
                                 Contact
                             </Link>

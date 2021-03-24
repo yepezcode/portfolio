@@ -1,6 +1,8 @@
 .work__container {
- 
+    margin: 0 10%
 }
+
+
 .work__title {
     
     display: flex; 
@@ -13,7 +15,6 @@
     }
 
 .work__content {
-   
    
 }
 
@@ -32,6 +33,7 @@
 }
 
 .work__images {
+    grid-column: 1/2;
     background-color: transparent;
     margin-left: 100px;
     & img {
@@ -106,7 +108,7 @@
     background-color: transparent;
     list-style: none;
     display: flex;
-    font-family: Roboto Mono;
+    font-family: 'Roboto Mono', monospace;
     line-height: 24px;
     font-weight: 400;
     position: relative;
@@ -120,3 +122,107 @@
         }
 }
 
+// Work - card
+
+.work__card-container {
+    margin-top: 50px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    position: relative;
+    align-items: auto;
+    background-color: $light;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    height: 60vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    gap: 50px;
+    grid-template-areas: 
+        "work__imagen work__text";
+}
+
+.work__text {
+    background-color: $light;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+        "grid_title"
+        "grid_information";
+}
+
+.grid_title {
+    background-color: transparent;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+        "work_feature"
+        "work_name-title";
+    grid-area: grid_title;
+}
+
+.work_feature {
+    background-color: transparent;
+    grid-area: work_feature;
+}
+.work_name-title {
+    background-color: transparent;
+    grid-area: work_name-title;
+}
+
+.grid_information {
+    display: grid;
+    background-color: $light;
+    grid-template-columns: 1fr;
+    grid-template-rows: 4fr 1fr;
+    grid-template-areas:
+        "work_information"
+        "work_technologies";
+    grid-area: grid_information;
+    margin-right: 100px;
+}
+
+.work_information {
+    background-color: transparent;
+    grid-area: work_information;
+    font-size: 18px;
+    line-height: 21px;
+    align-items: center;
+    letter-spacing: 0.02em;
+    text-align: justify;
+        & a {
+            background-color: transparent;
+            color: $normal;
+            font-weight: 900;
+            cursor: pointer;
+        }
+        & p {
+            background-color: transparent;
+        }
+}
+
+.work_technologies {
+    background-color: transparent;
+    grid-area: work_technologies;
+}
+
+
+.work__imagen {
+    background-color: transparent;
+    grid-area: work__imagen;
+    display: flex;
+
+        & img {
+            justify-content: center;
+            background-color: transparent;
+            align-content: center;
+            align-items: center;
+            justify-self: center;
+            width: 100%;
+            height: auto;
+            flex-wrap: wrap;
+        }
+}

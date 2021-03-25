@@ -1,0 +1,40 @@
+.circle_strong {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+    border-radius: 50%;
+    border: 7px solid rgba($normal, 0.3);
+    box-sizing: border-box;
+}
+
+.circle_light {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+    border-radius: 50%;
+    border: 7px solid $light;
+    box-sizing: border-box;
+}
+
+.cuadrado_light {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    z-index: 1;
+    border: 7px solid $light;
+    box-sizing: border-box;
+    border-radius: 2px;
+    transform: rotate(-46deg);
+}
+.cuadrado_strong {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    z-index: 1;
+    border: 7px solid rgba($normal, 0.3);
+    box-sizing: border-box;
+    border-radius: 2px;
+    transform: rotate(-46deg);
+}

@@ -9,9 +9,10 @@ import { OtherProyects } from "../components/proyects/OtherProyects";
 import { Contact } from "../components/contact/contact";
 import { Footer } from "../components/footer/footer";
 import { Element } from 'react-scroll';
+import { Figures } from "../components/background/figures";
 export const AppRouter = () => {
     return (
-       
+       <>
         <Router>
             <NavbarRouter />
             <Home />
@@ -27,6 +28,8 @@ export const AppRouter = () => {
             <Footer />
             
         </Router>
-       
+        <Figures />
+
+      </> 
     );
 };

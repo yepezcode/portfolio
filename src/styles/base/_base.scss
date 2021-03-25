@@ -17,6 +17,23 @@ main {
 }
 
 
+.without-styles { 
+    background-color: transparent;
+    text-decoration: none;
+    color: $dark;
+    padding: 8px 15px;
+    border: 1px solid $dark; 
+    transition: all 0.3s ease-out;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    &:hover {
+      background: $dark; 
+      color: $background;
+    }
+}
+
 
 .title__with-line {
   display: block;
@@ -45,6 +62,7 @@ main {
   outline: none;
   border: none;
   cursor: pointer;
+  text-decoration: none;
   
 }
 

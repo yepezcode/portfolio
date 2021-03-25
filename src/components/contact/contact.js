@@ -14,8 +14,9 @@ export const Contact = () => {
                 <Button 
                     buttonStyle="btn--outline"
                     buttonSize="btn--large"
+                    href={"mailto:yepezcode@gmail.com"}
                 >
-                    Conctact me!
+                    Say hello!
                 </Button>
             </div>
      

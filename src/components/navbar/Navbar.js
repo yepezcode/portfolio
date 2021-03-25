@@ -25,6 +25,11 @@ export const Navbar = () => {
         showButton();
     }, [])
     window.addEventListener('resize', showButton);
+
+    const DownloadCV = () => {
+        window.location.href = '../../static/resumen.pdf';
+    }
+
     return (
         <>
         
@@ -91,7 +96,9 @@ export const Navbar = () => {
                             </Link>
                         </li>
                     </ul>
-                    {button && <Button buttonStyle='btn--outline'>Resume</Button>}
+                    {button && <Button target="_blank" href="./resume.pdf" buttonStyle='btn--outline'>
+                       Resume
+                    </Button>}
                 </div>
             </nav>
         </>

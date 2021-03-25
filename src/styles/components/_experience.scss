@@ -97,7 +97,7 @@
             display: inline;
             color: $normal;
             cursor: pointer;
-            
+            text-decoration: none;
             &:hover {
                 text-decoration: underline;
                 transition: all 2ms ease-in;

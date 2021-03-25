@@ -5,7 +5,7 @@ export const Modest = () => {
     return (
         <div className="experience__information">
             <p className="experience__information-title">
-                Summer research stary through the Dolphin program <a>@Modest</a>
+                Summer research stary through the Dolphin program <a target="_blank" href="https://drive.google.com/file/d/1uERXBqgTKnxeN3yKywCiiwSPK7a2Gmqv/view?usp=sharing">@Modest</a>
             </p>
             <p className="experience__information-date">Jun - Jul 2019 </p>
 

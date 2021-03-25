@@ -49,7 +49,7 @@ export const Work = () => {
                  nameProject="Modest"
                  technologies={["Python","PySmile","Arbor.js","Django"]}
             >
-                 IA using bayesians networks for evaluate the competences of the students and create a view of skills. I win a  <a>Publication</a> in CIIE2019 and oportunitie of the present it in the Tecnologico de Monterrey campus Monterrey
+                 IA using bayesians networks for evaluate the competences of the students and create a view of skills. I win a  <a target="_blank" href="https://drive.google.com/file/d/1uERXBqgTKnxeN3yKywCiiwSPK7a2Gmqv/view?usp=sharing">Publication</a> in CIIE2019 and oportunitie of the present it in the Tecnologico de Monterrey campus Monterrey
             </CardWork>
 
             <CardWork

@@ -23,6 +23,9 @@
     color: $normal;
     font-style: normal;
     line-height: 21px;
+        & a {
+            text-decoration: none;
+        }
 }
 
 .about__technologies {

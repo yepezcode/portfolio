@@ -131,8 +131,9 @@
             color: $normal;
             font-weight: 900;
             cursor: pointer;
+            text-decoration: none;
         }
-        & p {
+        & span {
             background-color: transparent;
             display: inline-flex;
             color: #000;

@@ -3,7 +3,7 @@ import React from 'react'
 // Este es un componente para no hacer demasiado codigo, sin embargo, al querer personalizar texto del codigo
 // no me deja lo detecta como texto. 
 
-export const CardWork = ({ images, nameProject, technologies, imagenSize = 300, children }) => {
+export const CardWork = ({ images, nameProject, technologies, children }) => {
     return (
         <div className="work__card-container">
                 <div className="work__text">
@@ -25,7 +25,7 @@ export const CardWork = ({ images, nameProject, technologies, imagenSize = 300, 
                             <ul className="work__technologies">
                                 {
                                     technologies.map( tecnologie => (
-                                        <li>{tecnologie}</li>
+                                        <li key={tecnologie}>{tecnologie}</li>
                                     ))
                                 }
                             </ul>
@@ -33,7 +33,7 @@ export const CardWork = ({ images, nameProject, technologies, imagenSize = 300, 
                     </div>
                 </div>
                 <div className="work__imagen">
-                    <img src={images} />
+                    <img alt="about my job" src={images} />
                 </div>
 
             </div>

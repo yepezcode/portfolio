@@ -13,7 +13,6 @@ export const Experience = () => {
 
     const handleJob = (e) => {
         let job = e.target.id;
-        console.log(e.target.id);
         setInfoJob(job);
     }
     const JobInformation = () => {
@@ -27,7 +26,7 @@ export const Experience = () => {
    
     return (
         <>
-            <img style={{ display: 'flex' }} src={WaveTop} />
+            <img  alt="wave from getwaves.io" style={{ display: 'flex' }} src={WaveTop} />
             <div className="experience__container">
             <h1 className="experience__title">Where I've Worked <div className="experience__line"></div></h1>
                 <div className="experience__content">
@@ -40,7 +39,7 @@ export const Experience = () => {
                         { JobInformation() }
                 </div>               
             </div>
-            <img src={WaveBot} />
+            <img alt="wave from getwaves.io" src={WaveBot} />
 
         </>
     )

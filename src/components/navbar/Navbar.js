@@ -26,9 +26,6 @@ export const Navbar = () => {
     }, [])
     window.addEventListener('resize', showButton);
 
-    const DownloadCV = () => {
-        window.location.href = '../../static/resumen.pdf';
-    }
 
     return (
         <>
@@ -37,7 +34,7 @@ export const Navbar = () => {
                 <div className="navbar-container">
                     <Link  to="/" className="navbar-name" onClick={closeMobileMenu}
                     >
-                        <a onClick={ ScrollToTop }>   {"<Mauricio/>"} </a>
+                     <p onClick={ ScrollToTop }> {"<Mauricio/>"}</p> 
                     </Link>
                     <div className="menu-icon" onClick={handleClick}>
                         <i className={click ? "fas fa-times" : "fa fa-bars"} />
@@ -96,7 +93,7 @@ export const Navbar = () => {
                             </Link>
                         </li>
                     </ul>
-                    {button && <Button target="_blank" href="./resume.pdf" buttonStyle='btn--outline'>
+                    {button && <Button target="_blank"  rel="noreferrer" href="./resume.pdf" buttonStyle='btn--outline'>
                        Resume
                     </Button>}
                 </div>

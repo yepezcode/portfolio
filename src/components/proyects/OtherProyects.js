@@ -9,7 +9,7 @@ export const OtherProyects = () => {
                 <Card 
                     name="Porfolio"
                     description="This is my porfolio created for show my projects and now you are here"
-                    link="www.yepezcode.dev"
+                    link="http://yepezcode.dev"
                     repo="https://github.com/yepezcode/portfolio"
                     technologies={["React","Sass"]}
                 />

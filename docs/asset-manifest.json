@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1e1db689.chunk.css",
+    "main.js": "/static/js/main.606f7cbf.chunk.js",
+    "main.js.map": "/static/js/main.606f7cbf.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.08461953.js",
+    "runtime-main.js.map": "/static/js/runtime-main.08461953.js.map",
+    "static/js/2.8c014aef.chunk.js": "/static/js/2.8c014aef.chunk.js",
+    "static/js/2.8c014aef.chunk.js.map": "/static/js/2.8c014aef.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.1e1db689.chunk.css.map": "/static/css/main.1e1db689.chunk.css.map",
+    "static/js/2.8c014aef.chunk.js.LICENSE.txt": "/static/js/2.8c014aef.chunk.js.LICENSE.txt",
+    "static/media/MernCalendar.0440587f.png": "/static/media/MernCalendar.0440587f.png",
+    "static/media/Modest.fb6a2eeb.png": "/static/media/Modest.fb6a2eeb.png",
+    "static/media/Photo_perfil.adf485f0.jpg": "/static/media/Photo_perfil.adf485f0.jpg",
+    "static/media/Siina.16fa69d3.png": "/static/media/Siina.16fa69d3.png",
+    "static/media/laptop_S.f811b93b.png": "/static/media/laptop_S.f811b93b.png",
+    "static/media/play-button.9f5e5bcd.svg": "/static/media/play-button.9f5e5bcd.svg",
+    "static/media/table.d3aca046.png": "/static/media/table.d3aca046.png",
+    "static/media/tablePlant_S.bbd334ee.png": "/static/media/tablePlant_S.bbd334ee.png",
+    "static/media/wave.dc940036.svg": "/static/media/wave.dc940036.svg",
+    "static/media/waveBot.9a2810dc.svg": "/static/media/waveBot.9a2810dc.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.08461953.js",
+    "static/js/2.8c014aef.chunk.js",
+    "static/css/main.1e1db689.chunk.css",
+    "static/js/main.606f7cbf.chunk.js"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.72e37e9d.chunk.css",
+    "main.js": "/portfolio/static/js/main.201f8fe2.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.201f8fe2.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.cfbb45e3.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.cfbb45e3.js.map",
+    "static/js/2.8c014aef.chunk.js": "/portfolio/static/js/2.8c014aef.chunk.js",
+    "static/js/2.8c014aef.chunk.js.map": "/portfolio/static/js/2.8c014aef.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.72e37e9d.chunk.css.map": "/portfolio/static/css/main.72e37e9d.chunk.css.map",
+    "static/js/2.8c014aef.chunk.js.LICENSE.txt": "/portfolio/static/js/2.8c014aef.chunk.js.LICENSE.txt",
+    "static/media/MernCalendar.0440587f.png": "/portfolio/static/media/MernCalendar.0440587f.png",
+    "static/media/Modest.fb6a2eeb.png": "/portfolio/static/media/Modest.fb6a2eeb.png",
+    "static/media/Photo_perfil.adf485f0.jpg": "/portfolio/static/media/Photo_perfil.adf485f0.jpg",
+    "static/media/Siina.16fa69d3.png": "/portfolio/static/media/Siina.16fa69d3.png",
+    "static/media/laptop_S.f811b93b.png": "/portfolio/static/media/laptop_S.f811b93b.png",
+    "static/media/play-button.53c0df86.svg": "/portfolio/static/media/play-button.53c0df86.svg",
+    "static/media/table.d3aca046.png": "/portfolio/static/media/table.d3aca046.png",
+    "static/media/tablePlant_S.bbd334ee.png": "/portfolio/static/media/tablePlant_S.bbd334ee.png",
+    "static/media/wave.dc940036.svg": "/portfolio/static/media/wave.dc940036.svg",
+    "static/media/waveBot.9a2810dc.svg": "/portfolio/static/media/waveBot.9a2810dc.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cfbb45e3.js",
+    "static/js/2.8c014aef.chunk.js",
+    "static/css/main.72e37e9d.chunk.css",
+    "static/js/main.201f8fe2.chunk.js"
+  ]
+}

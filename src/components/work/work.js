@@ -27,6 +27,7 @@ export const Work = () => {
                  images={ Capture3 }
                  nameProject="MERN Calendar"
                  technologies={["MongoDB","Express","React","NodeJS", "Redux"]}
+                 link="https://mern-calendar-mau.herokuapp.com/"
             >
                 Calendar for create reminders, create account and view all recordatories for others users
 

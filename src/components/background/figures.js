@@ -46,14 +46,8 @@ export const Figures = () => {
 
             {/* Get in Touch */}
             <div className="circle_light" style={{ left: "15vw" , top: "680vh"}}></div>
-            <div className="circle_strong" style={{ left:"2vw" , top: "700vh"}}></div>
-            <div className="circle_light" style={{ left: "6vw" , top: "620vh"}}></div>
-            <div className="cuadrado_light" style={{ left:"56vw" , top: "690vh"}}></div>
-            <div className="cuadrado_strong" style={{ left:"56vw" , top: "660vh"}}></div>
-            <div className="cuadrado_strong" style={{ left:"94vw" , top: "640vh"}}></div>
-            <div className="cuadrado_light" style={{ left:"92vw" , top: "740vh"}}></div>
-            <div className="cuadrado_light" style={{ left:"10vw" , top: "750vh"}}></div>
-            <div className="cuadrado_strong" style={{ left:"43vw" , top: "740vh"}}></div>
+          
+           
 
     </>
     )

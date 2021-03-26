@@ -9,8 +9,8 @@ export const OtherProyects = () => {
                 <Card 
                     name="Porfolio"
                     description="This is my porfolio created for show my projects and now you are here"
-                    link="https://github.com/yepezcode/portfolio"
-                    repo="localhost:3000"
+                    link="www.yepezcode.dev"
+                    repo="https://github.com/yepezcode/portfolio"
                     technologies={["React","Sass"]}
                 />
                
@@ -24,15 +24,15 @@ export const OtherProyects = () => {
                 <Card 
                     name="HeroesApp"
                     description="A page with Heroes where you search heroes and know about that"
-                    link=""
-                    repo=""
+                    link="https://heroes-app-two.vercel.app/marvel"
+                    repo="https://github.com/yepezcode/HeroesApp"
                     technologies={["React",  "bootstrap", "Jezt"]}
                 />
                 <Card 
                     name="Todo list"
                     description="A simple page for to-do list, you can use it for save you task this is saved in your browser"
-                    link=""
-                    repo=""
+                    link="https://yepezcode.github.io/Hooks-App/"
+                    repo="https://github.com/yepezcode/Hooks-App"
                     technologies={["React",  "bootstrap", "Jezt"]}
                 />
                 <Card 

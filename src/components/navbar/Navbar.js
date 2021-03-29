@@ -39,7 +39,8 @@ export const Navbar = () => {
                     <div className="menu-icon" onClick={handleClick}>
                         <i className={click ? "fas fa-times" : "fa fa-bars"} />
                     </div>
-                    <ul className={click ? "nav-menu active" : "nav-menu"}>
+                
+                    <ul className={click ? "nav-menu active-menu" : "nav-menu"}>
                         <li className='nav-items'>
                             <Link
                                 to="about"

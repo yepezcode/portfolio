@@ -21,7 +21,7 @@ export const Work = () => {
                  technologies={["Python","PySmile","Arbor.js","Django"]}
                  link="https://drive.google.com/file/d/1uERXBqgTKnxeN3yKywCiiwSPK7a2Gmqv/view"
             >
-                 IA development using bayesian networks to evaluate students' competences and creating a user interface to visualize the information collected. This project was<a target="_blank"  rel="noreferrer" href="https://drive.google.com/file/d/1uERXBqgTKnxeN3yKywCiiwSPK7a2Gmqv/view">published</a> at CIIE2019 and I had the opportunity to present it in the Tecnologico de Monterrey.
+                 IA development using bayesian networks to evaluate students' competences and creating a user interface to visualize the information collected. This project was<a target="_blank"  rel="noreferrer" href="https://drive.google.com/file/d/1uERXBqgTKnxeN3yKywCiiwSPK7a2Gmqv/view"> published</a> at CIIE2019 and I had the opportunity to present it in the Tecnologico de Monterrey.
             </CardWork>
 
             <CardWork

@@ -21,7 +21,7 @@ export const Work = () => {
                  technologies={["Python","PySmile","Arbor.js","Django"]}
                  link="https://drive.google.com/file/d/1uERXBqgTKnxeN3yKywCiiwSPK7a2Gmqv/view"
             >
-                 IA using bayesians networks for evaluate the competences of the students and create a view of skills. I win a  <a target="_blank"  rel="noreferrer" href="https://drive.google.com/file/d/1uERXBqgTKnxeN3yKywCiiwSPK7a2Gmqv/view?usp=sharing">Publication</a> in CIIE2019 and oportunitie of the present it in the Tecnologico de Monterrey campus Monterrey
+                 IA development using bayesian networks to evaluate students' competences and creating a user interface to visualize the information collected. This project was<a target="_blank"  rel="noreferrer" href="https://drive.google.com/file/d/1uERXBqgTKnxeN3yKywCiiwSPK7a2Gmqv/view">published</a> at CIIE2019 and I had the opportunity to present it in the Tecnologico de Monterrey.
             </CardWork>
 
             <CardWork
@@ -30,7 +30,7 @@ export const Work = () => {
                  technologies={["MongoDB","Express","React","NodeJS", "Redux"]}
                  link="https://mern-calendar-mau.herokuapp.com/"
             >
-                Calendar for create reminders, create account and view all recordatories for others users
+                Calendar capable of creating reminders and visualize them. This application has a full sign up and sign in system.
 
             </CardWork>
 

@@ -6,7 +6,7 @@ export const Contact = () => {
           <h1 className="contact__title">Get in Touch    </h1>
             <div className="contact__information-container">
                 <p className="contact__information">
-                Today I’m looking new jobs and new opportunities, my inbox is always open every weekdays i read my emails and I’ll try reply to you
+                Right now, I'm looking for a job and new opportunities as a developer. Feel free to contact me whenever you want to and I'll reply to you as soon as I can
                 </p>
          
             </div>

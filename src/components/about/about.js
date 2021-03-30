@@ -8,7 +8,7 @@ export const About = () => {
                 <div className="about__information">
                     <p>
                         I’m Currently  a <span className="p__medium">Jr. Software Developer</span> just graduated from the Instituto Tecnologico de Estudios Superiores de Zamora, (Technological Institute of Higher Studies of Zamora),  I’m 22 years old and I’m willing to relocate.<br /><br />
-                        I've been using Linux for 3 years also i’ve been using neovim as my main code editor. <br />
+                        I've been using Linux for 3 years also I’ve been using neovim as my main code editor. <br />
                         Here are a few technologies I’ve been working with recently:
                     </p>
                     <div className="about__technologies">

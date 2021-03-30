@@ -67,7 +67,7 @@
   height: 100%;
   font-style: normal;
   font-weight: 500;
-
+  cursor: pointer;
   font-size: 20px;
   line-height: 23px;
   letter-spacing: 0.1em;
@@ -138,6 +138,7 @@
     padding: 1rem 0;
     width: 100%;
     display: table;
+    
   }
 
   .nav-links:hover {

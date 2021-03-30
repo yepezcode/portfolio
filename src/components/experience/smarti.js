@@ -8,15 +8,15 @@ export const Smarti = () => {
             <ul>
                 <li>
                     <img alt="arrow" className="list-arrow" src={Flecha} />
-                    Design interfaces with good user experience in Figma
+                    User interface design using Figma
                 </li>
                 <li>
                     <img alt="arrow" className="list-arrow" src={Flecha} />
-                    Create communications in IoT devices with the MQTT protocol in Python and Javascript
+                    Creating communications in IoT devices with the MQTT protocol in Python and Javascript
                 </li>
                 <li>
                     <img alt="arrow" className="list-arrow" src={Flecha} />
-                    Development the application in react native expo
+                    Developing the application with react native expo
                 </li>
             </ul>
         </div>

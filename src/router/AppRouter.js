@@ -9,7 +9,7 @@ import { OtherProyects } from "../components/proyects/OtherProyects";
 import { Contact } from "../components/contact/contact";
 import { Footer } from "../components/footer/footer";
 import { Element } from 'react-scroll';
-import { Figures } from "../components/background/figures";
+// import { Figures } from "../components/background/figures";
 import { Navbar } from "../components/navbar/Navbar";
 export const AppRouter = () => {
     return (

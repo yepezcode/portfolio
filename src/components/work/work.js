@@ -19,6 +19,7 @@ export const Work = () => {
                  images={ Capture2 }
                  nameProject="Modest"
                  technologies={["Python","PySmile","Arbor.js","Django"]}
+                 link="https://drive.google.com/file/d/1uERXBqgTKnxeN3yKywCiiwSPK7a2Gmqv/view"
             >
                  IA using bayesians networks for evaluate the competences of the students and create a view of skills. I win a  <a target="_blank"  rel="noreferrer" href="https://drive.google.com/file/d/1uERXBqgTKnxeN3yKywCiiwSPK7a2Gmqv/view?usp=sharing">Publication</a> in CIIE2019 and oportunitie of the present it in the Tecnologico de Monterrey campus Monterrey
             </CardWork>

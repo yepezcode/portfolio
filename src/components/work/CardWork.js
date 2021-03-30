@@ -19,7 +19,7 @@ export const CardWork = ({ images, nameProject, technologies, repo, link, childr
                             <p className="work__feature">Feature Project</p>
                         </div>
                         <div className="work_name-title">
-                             <p className="work__work-title">{ nameProject }</p>
+                             <p onClick={ () => redirectTo(link) } className="work__work-title">{ nameProject }</p>
                         </div>
                     </div>
                     <div className="grid_information">

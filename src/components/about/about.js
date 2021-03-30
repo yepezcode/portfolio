@@ -7,7 +7,7 @@ export const About = () => {
             <div className="about__content">
                 <div className="about__information">
                     <p>
-                        I’m Currently I’m a <span className="p__medium">Jr. Software Developer</span> just graduated from the Instituto Tecnologico de Estudios Superiores de Zamora, (Technological Institute of Higher Studies of Zamora),  I’m 22 years old and I’m willing to relocate.<br /><br />
+                        I’m Currently  a <span className="p__medium">Jr. Software Developer</span> just graduated from the Instituto Tecnologico de Estudios Superiores de Zamora, (Technological Institute of Higher Studies of Zamora),  I’m 22 years old and I’m willing to relocate.<br /><br />
                         I’m a Linux user also i’ve been using neovim like main code editor. <br />
                         Here are a few technologies I’ve been working with recently:
                     </p>

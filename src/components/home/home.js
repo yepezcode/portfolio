@@ -10,8 +10,8 @@ export const Home = () => {
                 <p className="home__text-name">Mauricio Yepez</p>
                 <p className="home__text-under-name">FullStack developer</p>
                 <p className="home__information">
-                    I'm Engeineering in Information and Comunication
-                        Technologies.<br /> I like the challenges and learning about
+                    I'm an Engineer in Information and Comunication
+                        Technologies.<br /> I enjoy to face new challenges and learning about
                         technology{" "}
                 </p>
                 <Button

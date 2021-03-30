@@ -35,7 +35,51 @@
 .about__technologies ul li {
     margin-top: 10px;
 }
+
 .about__image {
-    height: 500px;
+    max-height: 500px;
+    height: 100%;
+    max-width: 375px;
+    width: 100%;
     margin-top: 60px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); ;
+}
+
+
+
+@media screen and (max-width: 960px) {
+    
+    .about__container {
+        margin: 30% 30px;
+    }
+
+
+    .about__title {
+        display: flex;
+        color: $dark;
+        font-weight: bold;
+        font-size: 25px;
+        letter-spacing: 0.03em;
+    }
+
+    .about__content {
+        justify-content: center;
+        align-items: center;
+        
+        flex-direction: column;
+    }
+
+
+    .about__information {
+        background-color: transparent;
+        margin-top: 50px;
+    }
+
+
+    .about__technologies {
+        display: flex;
+        margin-top: 30px;
+        text-align: left;
+    }
 }

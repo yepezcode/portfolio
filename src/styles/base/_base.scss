@@ -40,6 +40,11 @@ main {
   display: block;
   overflow: hidden;
   margin-left: 20%;
+
+  @media screen and (max-width: 960px) { 
+    margin: 0;
+  }
+
 }
 .title__with-line > span{
   position: relative;

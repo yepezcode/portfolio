@@ -187,6 +187,8 @@
     background-color: transparent;
     grid-area: work__imagen;
     display: flex;
+    margin: 5%;
+    flex-wrap: nowrap;
         & img {
             justify-content: center;
             background-color: transparent;
@@ -195,6 +197,7 @@
             justify-self: center;
             width: 100%;
             height: auto;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         }
 }
 

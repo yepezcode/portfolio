@@ -25,8 +25,9 @@ export const About = () => {
                     </div>
                    
                 </div>
-                <img alt="Im in Talent Land" className="about__image" src={ Photo }  />
+                <img loading="lazy" alt="Im with t-shit withe" className="about__image" src={ Photo }  />
             </div>
         </div>
     );
 };
+ 

@@ -47,7 +47,7 @@ export const CardWork = ({ images, nameProject, technologies, repo, link, childr
                     </div>
                 </div>
                 <div className="work__imagen">
-                    <img alt="about my job" src={images} />
+                    <img loading="lazy" alt="about my job" src={images} />
                 </div>
 
             </div>

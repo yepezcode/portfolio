@@ -16,15 +16,15 @@ export const Modest = () => {
 
             <ul>
                 <li>
-                <img alt="icon" className="list-arrow" src={Flecha} />
+                <img loading="lazy" alt="icon" className="list-arrow" src={Flecha} />
                 I worked with python lenguages using Django and libreries as pysmile
             </li>
                 <li>
-                <img alt="icon" className="list-arrow" src={Flecha} />
+                <img loading="lazy" alt="icon" className="list-arrow" src={Flecha} />
                 Created students models that assesses student skills
             </li>
                 <li>
-                <img alt="icon" className="list-arrow" src={Flecha} />
+                <img loading="lazy" alt="icon" className="list-arrow" src={Flecha} />
                 Show the student skill tree using the arbor.js library
             </li>
             </ul>

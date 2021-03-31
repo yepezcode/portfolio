@@ -26,7 +26,7 @@ export const Experience = () => {
    
     return (
         <>
-            <img  alt="wave from getwaves.io" style={{ display: 'flex' }} src={WaveTop} />
+            <img loading="lazy" alt="wave from getwaves.io" style={{ display: 'flex' }} src={WaveTop} />
             <div className="experience__container">
             <h1 className="experience__title">Where I've Worked <div className="experience__line"></div></h1>
                 <div className="experience__content">
@@ -39,7 +39,7 @@ export const Experience = () => {
                         { JobInformation() }
                 </div>               
             </div>
-            <img alt="wave from getwaves.io" src={WaveBot} />
+            <img loading="lazy" alt="wave from getwaves.io" src={WaveBot} />
 
         </>
     )

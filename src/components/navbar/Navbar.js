@@ -1,10 +1,11 @@
-import React, { useEffect, useState } from "react";
+import React, { useCallback, useEffect, useState,  } from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
 //import { Link } from "react-router-dom";
 import { Button } from "../button/Button";
 export const Navbar = () => {
     const [click, setClick] = useState(false);
     const [button, setButton] = useState(true);
+    const [scrollpos, setScrollpos] = useState( 0);
 
     const handleClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
@@ -24,13 +25,33 @@ export const Navbar = () => {
     useEffect(() => {
         showButton();
     }, [])
+
+
     window.addEventListener('resize', showButton);
+    
+    const handleScroll = useCallback(() =>   {
+        const currentScrollPos = window.pageYOffset;
+        
+        if( scrollpos > currentScrollPos  ) {
+           document.getElementsByClassName("navbar")[0].style.top = "0px";   
+        } else {
+            document.getElementsByClassName("navbar")[0].style.top = "-80px";   
+        }
+    
+          setScrollpos(currentScrollPos);
+    }, [scrollpos])
+
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll );
+        return () => {
+            window.removeEventListener('scroll', handleScroll )
+        }
+    }, [scrollpos, handleScroll , ]);
 
 
     return (
         <>
-        
-            <nav className="navbar">
+            <nav className="navbar" >
                 <div className="navbar-container">
                     <Link  to="/" className="navbar-name" onClick={closeMobileMenu}
                     >

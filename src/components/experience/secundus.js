@@ -1,28 +1,30 @@
 import React from "react";
 import Flecha from "../../static/list-styles/play-button.svg";
-export const Smarti = () => {
+export const Secundus = () => {
   return (
     <div className="experience__information">
       <p className="experience__information-title">
-        Remote mobile development{" "}
-        <a target="_blank" rel="noreferrer" href="https://www.smarti.mx/">
-          @Smarti
+        Full Stack Web Developer{" "}
+        <a target="_blank" rel="noreferrer" href="https://secundus.com.mx">
+          @Secundus
         </a>
       </p>
-      <p className="experience__information-date">Jun - Dec 2020 </p>
+      <p className="experience__information-date">April 2021 - Current </p>
       <ul>
         <li>
           <img loading="lazy" alt="arrow" className="list-arrow" src={Flecha} />
-          User interface design using Figma
+          Developing reusable components in React JS. Use Rematch library for
+          Redux.
         </li>
         <li>
           <img loading="lazy" alt="arrow" className="list-arrow" src={Flecha} />
-          Creating communications in IoT devices with the MQTT protocol in
-          Python and Javascript
+          Creating new routes in REST API from Express. Also made new models of
+          Sequelize for MYSQL.
         </li>
         <li>
           <img loading="lazy" alt="arrow" className="list-arrow" src={Flecha} />
-          Developing the application with react native expo
+          Using AWS Tools like Cognito, Dynamo DB, Code Commit, S3, RDS, lambda,
+          and CodeStar
         </li>
       </ul>
     </div>
